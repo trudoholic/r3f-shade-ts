@@ -1,10 +1,12 @@
 import './App.css'
-import SceneA from "./scenes/SceneA"
+// import SceneA from "./scenes/SceneA"
+import SceneB from "./scenes/SceneB"
 
 function App() {
   return (
     <>
-      <SceneA />
+      {/*<SceneA />*/}
+      <SceneB />
     </>
   )
 }
