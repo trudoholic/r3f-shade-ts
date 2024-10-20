@@ -6,7 +6,8 @@ import './App.css'
 // import SceneE from "./scenes/SceneE"
 // import Shadows from "./scenes/Shadows"
 // import Intro from "./scenes/Intro"
-import Table from "./scenes/Table"
+// import Table from "./scenes/Table"
+import Illusion from "./scenes/Illusion"
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/*<SceneE />*/}
       {/*<Shadows/>*/}
       {/*<Intro/>*/}
-      <Table/>
+      {/*<Table/>*/}
+      <Illusion/>
     </>
   )
 }
