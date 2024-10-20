@@ -1,7 +1,8 @@
 import './App.css'
 // import SceneA from "./scenes/SceneA"
 // import SceneB from "./scenes/SceneB"
-import SceneC from "./scenes/SceneC"
+// import SceneC from "./scenes/SceneC"
+import SceneD from "./scenes/SceneD"
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <>
       {/*<SceneA />*/}
       {/*<SceneB />*/}
-      <SceneC />
+      {/*<SceneC />*/}
+      <SceneD />
     </>
   )
 }
