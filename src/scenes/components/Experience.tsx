@@ -24,6 +24,15 @@ export const Experience = () => {
 
       {/*<ContactShadows position={[0, -1, 0]} blur={3} opacity={0.42} />*/}
       <ContactShadows position={[0, -1, .1]} blur={2} opacity={0.75} />
+      {/*<ContactShadows*/}
+      {/*  frames={1}*/}
+      {/*  rotation-x={[Math.PI / 2]}*/}
+      {/*  position={[0, -0.4, 0]}*/}
+      {/*  far={1}*/}
+      {/*  width={1.5}*/}
+      {/*  height={1.5}*/}
+      {/*  blur={0.2} */}
+      {/*/>*/}
     </>
   )
 }
