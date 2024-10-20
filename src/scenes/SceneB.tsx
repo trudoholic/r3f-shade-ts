@@ -1,6 +1,6 @@
-import React, { useRef } from "react"
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, OrthographicCamera } from "@react-three/drei"
+import {useRef} from "react"
+import {Canvas} from '@react-three/fiber'
+import {OrbitControls, OrthographicCamera} from "@react-three/drei"
 
 const Box = (props) => {
   const boxRef = useRef()

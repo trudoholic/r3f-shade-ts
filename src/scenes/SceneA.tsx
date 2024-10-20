@@ -26,8 +26,9 @@ const SceneA = () => {
 
   return (
     <Canvas>
+      <color attach="background" args={["#ececec"]} />
       <OrthographicCamera makeDefault zoom={40} />
-      <gridHelper args={[10, 10, `white`, `gray`]} />
+      <gridHelper args={[10, 10, `gray`, `silver`]} />
       <mesh onClick={toggleZoom} position={[0, 1, 0]}>
         <boxGeometry attach="geometry" args={[1, 1, 1]} />
         <meshNormalMaterial attach="material" />
