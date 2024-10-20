@@ -3,8 +3,9 @@ import './App.css'
 // import SceneB from "./scenes/SceneB"
 // import SceneC from "./scenes/SceneC"
 // import SceneD from "./scenes/SceneD"
+import SceneE from "./scenes/SceneE"
 // import Shadows from "./scenes/Shadows"
-import Intro from "./scenes/Intro"
+// import Intro from "./scenes/Intro"
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
       {/*<SceneB />*/}
       {/*<SceneC />*/}
       {/*<SceneD />*/}
+      <SceneE />
       {/*<Shadows/>*/}
-      <Intro/>
+      {/*<Intro/>*/}
     </>
   )
 }
