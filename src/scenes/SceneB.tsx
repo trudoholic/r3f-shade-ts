@@ -16,6 +16,7 @@ const Box = (props) => {
 const SceneB = () => {
   return (
     <Canvas style={{ height: 400, width: 400 }}>
+      <color attach="background" args={["#ececec"]} />
       <ambientLight intensity={0.25} />
       <pointLight intensity={0.75} position={[500, 500, 1000]} />
 
